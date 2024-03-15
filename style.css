@@ -1,0 +1,123 @@
+html,body{
+  height: 99%;
+  width: 99%;
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color: #ffdbed;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid pink;
+  box-shadow: 1px 3px 30px 1px pink;
+  outline: 10px 10px #DEE2FF groove;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #DEE2FF ;
+  font-family: "Lucida Console", "Courier New", monospace;
+  height: 120px;
+  text-align: right;
+  font-style: oblique;
+}
+
+.cont{
+  border:2px pink solid;
+  position: relative;
+  top: 2px;
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  background-color: #ffdbed;
+  color: #ff61bd;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 2em;
+}
+
+h1{
+  font-size: 0.6em;
+}
+p{
+  font-size: 0.5em;
+}
+#logo{
+  width: 60px;
+  position: absolute;
+  top: 70px;
+  right: 170px;
+}
+#hk{
+  width: 100px;
+}
+
+.wave{
+  border: #CBC0D3 1px solid;
+  background-color: #ffdbed;
+  font-size: 0.9em;
+  height: 25px;
+  overflow: hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 4s;
+  display:block;
+}
+#l1{
+  border: #CBC0D3 1px solid;
+  background-image:repeating-linear-gradient(pink, white);
+}
+.wave:hover{
+  height:90%;
+  top:1px;
+  z-index:1;
+}
+.menu{
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  color: #ff61bd;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 2em;
+  text-shadow: 2px 2px #ffdbe8;
+  font-style: oblique;
+  width: 100px;
+  overflow: hidden;
+}
+.menu a{
+  color: pink;
+  background-color: #f8d8e9;
+  text-shadow: 0px 0px ;
+  font-size: 0.5em;
+  padding: 1px;
+  border: 1px solid palevioletred;
+  display: none;
+}
+.menu:hover a{
+  display: block;
+}
+.menu a:hover{
+  color: #cec3d5;
+  background-color: #dadefb;
+}
+.right{
+  border:2px powderblue;
+  background-color: #f5fcff;
+  font-size: 0.9em;
+  width: 48%;
+  min-height: 300px;
+  position: absolute;
+  right: 5px
+}
+.left{
+  border:2px powderblue;
+  background-color: #f5fcff;
+  font-size: 0.9em;
+  width: 48%;
+  min-height: 300px;
+  position: absolute;
+  left: 5px;
+}
+iframe{
+  margin: 1px;
+  padding: 3px;
+}
